@@ -1,0 +1,35 @@
+{
+  "name": "@asdsadw12312dwd2112xz/linkerd-config-cli",
+  "version": "1.0.0",
+  "description": "Generate Linkerd service mesh configurations",
+  "type": "module",
+  "main": "dist/index.mjs",
+  "bin": {
+    "linkerd-config": "dist/index.mjs"
+  },
+  "scripts": {
+    "build": "node node_modules/tsup/dist/cli-default.js",
+    "dev": "node node_modules/tsup/dist/cli-default.js --watch"
+  },
+  "keywords": [
+    "linkerd",
+    "service-mesh",
+    "kubernetes",
+    "cli",
+    "config"
+  ],
+  "author": "okirmio-create",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
