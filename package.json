@@ -1,11 +1,11 @@
 {
   "name": "@asdsadw12312dwd2112xz/linkerd-config-cli",
   "version": "1.0.0",
-  "description": "Generate Linkerd service mesh configurations",
+  "description": "CLI tool to generate and manage Linkerd service mesh configurations",
   "type": "module",
-  "main": "dist/index.mjs",
+  "files": ["dist"],
   "bin": {
-    "linkerd-config": "dist/index.mjs"
+    "linkerd-config": "./dist/index.js"
   },
   "scripts": {
     "build": "node node_modules/tsup/dist/cli-default.js",
