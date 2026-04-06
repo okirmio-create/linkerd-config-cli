@@ -5,7 +5,7 @@
   "type": "module",
   "files": ["dist"],
   "bin": {
-    "linkerd-config": "./dist/index.js"
+    "linkerd-config": "dist/index.js"
   },
   "scripts": {
     "build": "node node_modules/tsup/dist/cli-default.js",
